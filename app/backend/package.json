@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "@prisma/client": "^7.8.0",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/node": "^25.6.0",
-    "prisma": "^6.7.0",
+    "prisma": "^6.19.3",
     "typescript": "^6.0.3"
   },
   "scripts": {
@@ -22,7 +23,6 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@prisma/client": "^6.7.0",
     "@types/dotenv": "^6.1.1",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
